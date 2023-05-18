@@ -1,0 +1,119 @@
+
+  body {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ff0000;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    }
+      
+    nav {
+    background-color: #202020;
+    color: #ff0000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+      
+    nav li {
+     margin-right: 20px;
+    }
+      
+    nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    }
+      
+    nav a:hover {
+    color: #ff0000;
+    }
+      
+    h1 {
+    font-size: 36px;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    }
+      
+    p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+    text-align: center;
+    }
+      
+    h2 {
+    font-size: 24px;
+    margin: 50px 0 20px;
+    text-align: center;
+    color: #222222;
+    }
+      
+    h3 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #222222;
+    }
+      
+    ul {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 0;
+    list-style-type: none;
+    }
+      
+    li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    }
+      
+    li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+   
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    
+    .board {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 5px;
+      width: 300px;
+      margin: 0 auto;
+    }
+    .cell {
+      border: 1px solid #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .restart-button {
+      display: block;
+      margin-top: 20px;
+    }
